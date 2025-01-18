@@ -1,0 +1,20 @@
+[project]
+name = "kulfa_management"
+authors = [
+    { name = "SimHeights", email = "info@simheights.com"}
+]
+description = "A comprehensive app to manage and track activities related to Ice-Creame Business."
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+dependencies = [
+    # "frappe~=15.0.0" # Installed and managed by bench.
+]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+# These dependencies are only installed when developer mode is enabled
+[tool.bench.dev-dependencies]
+# package_name = "~=1.1.0"
