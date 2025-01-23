@@ -1,0 +1,143 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:PR-{MM}-{product_name}-{####}",
+ "creation": "2025-01-21 20:56:33.230496",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "product_name",
+  "column_break_acna",
+  "category",
+  "section_break_zszc",
+  "unit_of_measure",
+  "column_break_mjnv",
+  "column_break_ifqh",
+  "stock_quantity",
+  "column_break_vqzd",
+  "unit_price",
+  "section_break_mvlx",
+  "threshold",
+  "column_break_afsl",
+  "reorder_level",
+  "column_break_jawp",
+  "is_active",
+  "section_break_yatm",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "product_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Product Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_acna",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_zszc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "unit_of_measure",
+   "fieldtype": "Select",
+   "label": "Unit of Measure",
+   "options": "pieces\nkilograms\nliters"
+  },
+  {
+   "fieldname": "column_break_ifqh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "stock_quantity",
+   "fieldtype": "Float",
+   "label": "Stock Quantity",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_vqzd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "unit_price",
+   "fieldtype": "Currency",
+   "label": "Unit Price"
+  },
+  {
+   "fieldname": "section_break_mvlx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "threshold",
+   "fieldtype": "Float",
+   "label": "Threshold"
+  },
+  {
+   "fieldname": "column_break_afsl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "reorder_level",
+   "fieldtype": "Float",
+   "label": "Reorder Level"
+  },
+  {
+   "fieldname": "column_break_jawp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "default": "1",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active"
+  },
+  {
+   "fieldname": "section_break_yatm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Link",
+   "label": "Category",
+   "options": "Product Category"
+  },
+  {
+   "fieldname": "column_break_mjnv",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-21 22:08:11.411688",
+ "modified_by": "Administrator",
+ "module": "Kulfa Management",
+ "name": "Product",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
